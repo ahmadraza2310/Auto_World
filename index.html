@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Auto World</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+
+    <style>
+        #back {
+            background-color: silver;
+        }
+
+        #back1 {
+            background-color: silver;
+            background-size: 100% 100%;
+            height: 80vh;
+        }
+
+        #firstimg {
+            background-image: url(Image/background1.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 600px;
+        }
+
+        #secondimg {
+            background-image: url('Image/background2.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 600px;
+        }
+
+        #thirdimg {
+            background-image: url('Image/background3.webp');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 600px;
+        }
+
+        #fourthimg {
+            background-image: url(Image/background4.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 600px;
+        }
+
+        #sp6 {
+            display: none;
+        }
+
+        #sp9 {
+            display: none;
+        }
+
+        #sp19 {
+            display: none;
+        }
+
+        #rl6 {
+            display: none;
+        }
+
+        #rl9 {
+            display: none;
+        }
+
+        #rl19 {
+            display: none;
+        }
+
+        #ic {
+            margin-top: 10px;
+            margin-left: 20px;
+
+        }
+
+        #ic1 {
+            margin-top: 10px;
+            margin-left: 400px;
+        }
+
+        #img4 {
+            position: relative;
+            top: -2%;
+        }
+
+        #img5 {
+            position: relative;
+            top: -2%;
+        }
+
+        #img6 {
+            position: relative;
+            top: -12%;
+        }
+
+        #icon1 {
+            color: white;
+            font-size: 25px;
+            position: relative;
+            top: -11px;
+            left: -8px;
+        }
+
+        #radius1:hover {
+            opacity: 0.7;
+        }
+
+        #radius1 {
+            border: 1px solid #1877F2;
+            background-color: #1877F2;
+            width: 3%;
+            height: 40px;
+            border-radius: 50%;
+            padding: 18px;
+        }
+
+        #icon2 {
+            color: white;
+            font-size: 25px;
+            position: relative;
+            top: -12px;
+            left: -11px;
+        }
+
+        #radius2:hover {
+            opacity: 0.7;
+        }
+
+        #radius2 {
+            border: 1px solid #007bb5;
+            background-color: #007bb5;
+            width: 3%;
+            height: 40px;
+            border-radius: 50%;
+            padding: 18px;
+        }
+
+        #icon3 {
+            color: red;
+            font-size: 25px;
+            position: relative;
+            top: -11px;
+            left: -12px;
+        }
+
+        #radius3:hover {
+            opacity: 0.7;
+        }
+
+        #radius3 {
+            border: 1px solid white;
+            background-color: white;
+            width: 3%;
+            height: 40px;
+            border-radius: 50%;
+            padding: 18px;
+        }
+
+        #icon4 {
+            color: white;
+            font-size: 25px;
+            position: relative;
+            top: -11px;
+            left: -12px;
+        }
+
+        #radius4:hover {
+            opacity: 0.7;
+        }
+
+        #radius4 {
+            border: 1px solid #55ACEE;
+            background-color: #55ACEE;
+            width: 3%;
+            height: 40px;
+            border-radius: 50%;
+            padding: 18px;
+        }
+
+        #icon5 {
+            color: white;
+            font-size: 25px;
+            position: relative;
+            top: -11px;
+            left: -12px;
+        }
+
+        #radius5:hover {
+            opacity: 0.7;
+        }
+
+        #radius5 {
+            border: 1px solid #dd4b39;
+            background-color: #dd4b39;
+            width: 3%;
+            height: 40px;
+            border-radius: 50%;
+            padding: 18px;
+        }
+
+        #section1 {
+            display: flex;
+            justify-content: space-between;
+            justify-content: space-around;
+        }
+
+        #img1:hover {
+            width: 99%;
+        }
+
+        #img2:hover {
+            width: 99%;
+        }
+
+        #img3:hover {
+            width: 99%;
+        }
+
+        #img4:hover {
+            width: 99%;
+        }
+
+        #img5:hover {
+            width: 99%;
+        }
+
+        #img6:hover {
+            width: 99%;
+        }
+
+        #head {
+            text-decoration: underline;
+        }
+
+        #head1 {
+            text-decoration: underline;
+        }
+
+        #hr1 {
+            width: 90%;
+            margin-left: 5%;
+            height: 10px;
+        }
+
+        #logo:hover {
+            background-color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #AC:hover {
+            background-color: black;
+            color: white;
+        }
+
+        #C1:hover {
+            background-color: black;
+            color: white;
+        }
+
+        #C2:hover {
+            background-color: black;
+            color: white;
+        }
+
+        #C3:hover {
+            background-color: black;
+            color: white;
+        }
+
+        #ic1:hover {
+            text-decoration: underline;
+        }
+
+        #ic:hover {
+            text-decoration: underline;
+        }
+
+        #button1:hover {
+            background-color: white;
+            color: black;
+        }
+
+        @media(max-width:1200px) {
+            #ic1 {
+                margin-left: 200px;
+            }
+
+            #back1 {
+                height: 90vh;
+            }
+        }
+
+        @media(max-width:992px) {
+            #ic1 {
+                margin-left: 20px;
+            }
+
+            #bt12 {
+                display: block;
+            }
+
+            #bt13 {
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+            }
+
+            #img3 {
+                position: relative;
+                top: -13%;
+            }
+
+            #img4 {
+                position: relative;
+                top: -16%;
+                left: 107%;
+            }
+
+            #img5 {
+                position: relative;
+                top: -114%;
+            }
+
+            #img6 {
+                position: relative;
+                top: -52%;
+                left: 107%;
+            }
+
+            #back1 {
+                height: 180vh;
+            }
+        }
+
+        @media(max-width:768px) {
+            #img2 {
+                position: relative;
+                top: -9%;
+            }
+
+            #img3 {
+                position: relative;
+                top: -18%;
+            }
+
+            #img4 {
+                position: relative;
+                top: -28%;
+                left: -0%;
+            }
+
+            #img5 {
+                position: relative;
+                top: -22%;
+            }
+
+            #img6 {
+                position: relative;
+                top: -32%;
+                left: -0%;
+            }
+
+            #back1 {
+                height: 200vh;
+            }
+        }
+
+        @media(max-width:444px) {
+            #C3 {
+                margin-top: 5px;
+            }
+        }
+
+        @media(max-width:347px) {
+            #C2 {
+                margin-top: 5px;
+            }
+
+            #back1 {
+                height: 220vh;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--Nav Start-->
+    <div id="back">
+        <nav class="navbar navbar-expand-lg navbar-light" id="baco">
+            <div class="container">
+                <div>
+                    <a href="index.html" class="nav nav-brand nav-link " id="logo"> <img src="image/AUto World.gif"
+                            height="140px" width="200px" alt=""></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item" id="navitm0">
+                            <a href="index.html" class="nav-link text-dark">Home</a>
+                        </li>
+                        <li class="nav-item" id="navitm1">
+                            <a href="AboutUs.html" class="nav-link text-dark">AboutUs</a>
+                        </li>
+                        <li class="nav-item" id="navitm1">
+                            <a href="Gallary.html" class="nav-link text-dark">Gallary</a>
+                        </li>
+                        <li class="nav-item" id="navitm2">
+                            <a href="OurProduct.html" class="nav-link text-dark">Our Product</a>
+                        </li>
+                        <li class="nav-item" id="navitm3">
+                            <a href="ContactUs.html" class="nav-link text-dark">ContactUs</a>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa fa-home" style="font-size:18px;color:black" id="ic1"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa fa-heart-o" style="font-size:18px;color:black" id="ic"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa fa-phone" style="font-size:18px;color:black" id="ic"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa fa-shopping-cart" style="font-size:18px;color:black" id="ic"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--Nav End-->
+
+    <!-- Backgroun Start -->
+    <div class="carousel slide" id="myslider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div id="firstimg"></div>
+            </div>
+            <div class="carousel-item">
+                <div id="secondimg"></div>
+            </div>
+            <div class="carousel-item">
+                <div id="thirdimg"></div>
+            </div>
+            <div class="carousel-item">
+                <div id="fourthimg"></div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myslider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myslider" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- Backgroun End -->
+
+    <!-- Buttons Start -->
+    <div class="mt-3">
+        <button class="btn btn-danger" id="C2">Best Selling Brands</button>
+        <button class="btn btn-danger" id="C3">Best Selling Product</button>
+        <button class="btn btn-danger" id="C1">Mini Gallary</button>
+        <button class="btn btn-danger" id="AC">Full Page</button>
+    </div>
+    <!-- Buttons End -->
+
+    <!-- Gallary Start -->
+    <section id="gallary">
+        <div class="container">
+            <h1 class="text-center">Mini Gallary</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="Image/Suzuki/S alto b.jpeg" height="auto" width="100%" id="img1" class="mt-5" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="Image/Honda/Honda Accord CF3 w.jpg" height="auto" width="100%" id="img2" class="mt-5"
+                        alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="Image/Ford/f150 2023.jpg" height="auto" width="100%" id="img3" class="mt-5" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="Image/Honda/Honda Accord r 2023.jpg" height="auto" width="100%" id="img4" class="mt-3"
+                        alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="Image/Ford/ford atles bl.png" height="auto" width="100%" id="img5" class="mt-3" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="Image/Suzuki/Su S.cross BL.jpg" height="auto" width="100%" id="img6" class="mt-5" alt="">
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </section>
+    <!-- Gallary End -->
+
+    <!-- Best Selling Brand Start -->
+    <section id="bsb">
+        <div class="container">
+            <h1 class="text-center">Best Selling Brand</h1>
+            <div class="row pt-3 pl-3">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="Image/Honda logo.png" width="100%" height="350px" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="Image/Suzuki logo.webp" width="100%" height="350px" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="Image/toyota logo.jpg" width="100%" height="350px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </section>
+    <!-- Best Selling Brand End -->
+
+    <!-- Best Selling Product Start -->
+    <section id="bsp">
+        <div class="container">
+            <h1 class="text-center">Best Selling Product</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mt-3">
+                        <div class="container">
+                            <img src="Image/Toyota/T Corolla H E.png" class="mt-2" width="100%" height="250px" alt="">
+                            <p>Toyota Corolla Hybrid 2024</p>
+                            <p>USD$29,540</p>
+                            <button data-bs-toggle="modal" data-bs-target="#vw19" id="button1"
+                                class="mb-3 btn btn-dark">View
+                                Product</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mt-3">
+                        <div class="container">
+                            <img src="Image/Suzuki/Suzuki.Xl7.Dark Green.png" class="mt-2" width="100%" height="250px"
+                                alt="">
+                            <p>Suzuki Xl7 2022</p>
+                            <p>USD$4600</p>
+                            <button data-bs-toggle="modal" data-bs-target="#vw6" id="button1"
+                                class="mb-3 btn btn-dark">View
+                                Product</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mt-3">
+                        <div class="container">
+                            <img src="Image/Honda/Honda Civic w.webp" class="mt-2" width="100%" height="250px" alt="">
+                            <p>Honda Civic 2023</p>
+                            <p>USD$2600</p>
+                            <button data-bs-toggle="modal" data-bs-target="#vw9" id="button1"
+                                class="mb-3 btn btn-dark">View
+                                Product</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </section>
+    <!-- Best Selling Product End -->
+
+    <!-- Modal Start -->
+    <div class="modal" id="vw6">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Suzuki Xl7 2022</h2>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    <h5>Mild hybrid system</h5>
+                    The XL7 has an SHVS system that uses a compact starter generator and a lithium-ion battery to
+                    improve energy efficiency.
+                    <h5>Engine</h5>
+                    The XL7 has a 1.5 liter, naturally aspirated, four-cylinder engine that produces 103 horsepower
+                    and 138 newton meters of torque.
+                    <span id="sp6">
+                        <h5>Transmission</h5>
+                        The XL7 has a four-speed automatic transmission that powers the front wheels.
+                        <h5>Safety features</h5>
+                        The XL7 has an anti-lock brake system and electric brake force distribution to help maintain
+                        steering and shorten braking distance.
+                        <h5>Fuel economy</h5>
+                        The XL7 gets 17.11 kilometers per liter on highways.
+
+                    </span>
+                    </p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-dark mt-2" id="rd6">Read More</button>
+                    <button class="btn btn-dark mt-2" id="rl6">Read Less</button>
+                    <a target="_blank" href="pdf/Suzuki Xl7 2022.pdf"><button class="btn btn-danger mt-2">Download
+                            &nbsp;<i class="fa fa-download"></i></button></a>
+                </div>
+                <div class="modal-footer">
+                    <button id="n1" data-bs-dismiss="modal" class="btn btn-dark">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="vw9">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Honda Civic 2023</h2>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    <h5>Power unit</h5>
+                    The 2023 Civic has a new Power Control Unit and an Intelligent Power Unit, which can produce 181
+                    horsepower and 232 lb-ft of torque.
+                    <h5>Mode drive system</h5>
+                    The 2023 Civic has a multi-mode drive system with two primary settings. The Sport mode has
+                    smoother
+                    shifts and better fuel economy.
+                    <span id="sp9">
+                        <h5>Fuel injection</h5>
+                        The 2023 Civic e:HEV has a 2.0-liter naturally aspirated Atkinson cycle gasoline direct
+                        injection
+                        engine.
+                        <h5>Remote engine start</h5>
+                        The Civic sedan has remote engine start, which can start the engine and prepare the automatic
+                        climate control system.
+                        <h5>Interior comfort and convenience features</h5>
+                        The 2023 Civic has a spacious cabin with ample legroom and headroom.
+                        <h5>Interior technology</h5>
+                        The 2023 Civic hatchback has a stylish and luxurious interior with the latest technology.
+                        <h5>Safety technology</h5>
+                        The 2023 Civic comes standard with the Honda Sensing safety suite, which includes adaptive
+                        cruise
+                        control, automatic emergency braking, lane-keeping assistance, and road departure mitigation.
+                    </span>
+                    </p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-dark mt-2" id="rd9">Read More</button>
+                    <button class="btn btn-dark mt-2" id="rl9">Read Less</button>
+                    <a target="_blank" href="pdf/Honda Civic.pdf">
+                        <button class="btn btn-danger mt-2">Download<i class="fa fa-download"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <button id="n1" data-bs-dismiss="modal" class="btn btn-dark">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="vw19">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Toyota Corolla Hybrid 2024</h2>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    <h5>Technology</h5>
+                    Toyota Audio Multimedia, 8-inch touchscreen, wireless Apple CarPlay and Android Auto, four USB-C
+                    ports, 4.2-inch color TFT Multi-Information Display, and 7-inch fully digital gauge cluster
+                    <h5>Safety</h5>
+                    Rear view camera and adaptive cruise control
+                    <span id="sp19">
+                        <h5>Remote start</h5>
+                        Remote start for the XLE trim by clicking the lock button on the key fob three times twice in a
+                        row,
+                        and then holding it down
+                        <h5>Interior</h5>
+                        Sport seats, heated front seats, power-adjustable driver's seat, and synthetic leather
+                        upholstery
+                        <h5>Exterior</h5>
+                        Nightshade trim level with black accents, exclusive bronze-finished alloy wheels, and a
+                        blacked-out
+                        interior
+                        <h5>Engine</h5>
+                        1.8-liter four-cylinder engine and two electric motors for a total of 138 horsepower
+                        <h5>Fuel economy</h5>
+                        EPA estimates 50 mpg city and 43 mpg highway for the front-drive hybrid, and 47 mpg city and 41
+                        mpg
+                        highway for the all-wheel drive
+                    </span>
+                    </p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-dark mt-2" id="rd19">Read More</button>
+                    <button class="btn btn-dark mt-2" id="rl19">Read Less</button>
+                    <a target="_blank" href="pdf/Toyota Corolla Hybrid 2024.pdf"><button
+                            class="btn btn-danger mt-2">Download
+                            &nbsp;<i class="fa fa-download"></i></button></a>
+                </div>
+                <div class="modal-footer">
+                    <button id="n1" data-bs-dismiss="modal" class="btn btn-dark">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modals End -->
+
+    <!-- Footer Start -->
+    <footer id="footer1">
+        <div id="back1">
+            <div class="container">
+                <img src="image/AUto World.gif" height="150px" width="250px" alt="">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4 class="text-danger" id="head1">Your Trusted Source for Premium Pre-Owned Vehicles</h4>
+                        <p class="pt-3">Established in 1985 by entrepreneur Thomas Anderson, Auto World is your
+                            trusted
+                            destination for premium pre-owned vehicles. Our commitment to transparency, reliability,
+                            and
+                            customer satisfaction sets us apart. Explore our curated selection, benefit from
+                            innovative
+                            financing options, and embrace sustainability with eco-friendly choices. Experience a
+                            seamless and trustworthy car-buying journey at Auto World, where professionalism meets
+                            reliability.</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <ul class="navbar-nav">
+                            <li class="pt-3">
+                                <h6>Brand Available</h6>
+                            </li>
+                            <li class="nav-item">
+                                <a href="OurProduct.html#honda" class="nav-link">Honda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="OurProduct.html#suzuki" class="nav-link">Suzuki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="OurProduct.html#ford" class="nav-link">Ford</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="OurProduct.html#toyota" class="nav-link">Toyata</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="OurProduct.html#kia" class="nav-link">Kia</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="pt-3">
+                                <h6>Quick Links</h6>
+                            </li>
+                            <li class="nav-item" id="navitm0">
+                                <a href="index.html" class="nav-link text-dark">Home</a>
+                            </li>
+                            <li class="nav-item" id="navitm1">
+                                <a href="AboutUs.html" class="nav-link text-dark">AboutUs</a>
+                            </li>
+                            <li class="nav-item" id="navitm1">
+                                <a href="Gallary.html" class="nav-link text-dark">Gallary</a>
+                            </li>
+                            <li class="nav-item" id="navitm2">
+                                <a href="OurProduct.html" class="nav-link text-dark">Our Product</a>
+                            </li>
+                            <li class="nav-item" id="navitm3">
+                                <a href="ContactUs.html" class="nav-link text-dark">ContactUs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <ul class="navbar-nav">
+                            <li class="pt-3">
+                                <h6>Best Selling Brands</h6>
+                            </li>
+                            <li class="nav-item">
+                                <a href="OurProduct.html#toyota" class="nav-link">Toyota</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="OurProduct.html#honda" class="nav-link">Honda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="OurProduct.html#suzuki" class="nav-link">Suzuki</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr id="hr1">
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <section id="section1">
+                            <div id="radius1">
+                                <i class="fa fa-facebook-f" id="icon1"></i>
+                            </div>
+                            <div id="radius2">
+                                <i class="fa fa-linkedin" id="icon2"></i>
+                            </div>
+                            <div id="radius3">
+                                <i class="fa fa-youtube-play" id="icon3"></i>
+                            </div>
+                            <div id="radius4">
+                                <i class="fa fa-twitter" id="icon4"></i>
+                            </div>
+                            <div id="radius5">
+                                <i class="fa fa-google" id="icon5"></i>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
+                <center>
+                    <p class="mt-3">&#169Copyright . All rights reserved</p>
+                </center>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#AC").click(function () {
+                $("#gallary").show()
+                $("#bsb").show()
+                $("#bsp").show()
+            })
+
+            $("#C1").click(function () {
+                $("#gallary").show()
+                $("#bsb").hide()
+                $("#bsp").hide()
+            })
+
+            $("#C2").click(function () {
+                $("#gallary").hide()
+                $("#bsb").hide()
+                $("#bsp").show()
+            })
+
+            $("#C3").click(function () {
+                $("#gallary").hide()
+                $("#bsb").show()
+                $("#bsp").hide()
+            })
+
+            $("#rd6").click(function () {
+                $("#sp6").show()
+                $("#rd6").hide()
+                $("#rl6").show()
+            })
+
+            $("#rl6").click(function () {
+                $("#sp6").hide()
+                $("#rd6").show()
+                $("#rl6").hide()
+            })
+
+            $("#rd9").click(function () {
+                $("#sp9").show()
+                $("#rd9").hide()
+                $("#rl9").show()
+            })
+
+            $("#rl9").click(function () {
+                $("#sp9").hide()
+                $("#rd9").show()
+                $("#rl9").hide()
+            })
+
+            $("#rd19").click(function () {
+                $("#sp19").show()
+                $("#rd19").hide()
+                $("#rl19").show()
+            })
+
+            $("#rl19").click(function () {
+                $("#sp19").hide()
+                $("#rd19").show()
+                $("#rl19").hide()
+            })
+        })
+    </script>
+
+</body>
+
+</html>
